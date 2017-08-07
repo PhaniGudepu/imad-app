@@ -11,7 +11,12 @@ app.get('/', function (req, res) {
 app.get('/getone', function (req, res){
     res.send('first file requested');
 });
-
+app.get('/gettwo', function (req, res){
+    res.send('second file requested');
+});
+app.get('/getthree', function (req, res){
+    res.send('third file requested');
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
