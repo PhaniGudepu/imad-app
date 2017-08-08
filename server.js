@@ -12,7 +12,7 @@ app.get('/getone', function (req, res){
      res.sendFile(path.join(__dirname, 'ui', 'artical-one.html'));
 });
 app.get('/gettwo', function (req, res){
-    res.send('second file requested');
+    res.sendFile(path.join(__dirname, 'ui', 'artical_two.html'));
 });
 app.get('/getthree', function (req, res){
     res.send('third file requested');
