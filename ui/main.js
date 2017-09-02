@@ -8,5 +8,5 @@ function moveRight(){
     img.style.marginLeft=marginLeft+"px";
 }
 img.onclick = function(){
-    var intervel = setInervel(moveRight, 100);
+    var intervel = setInerval(moveRight, 100);
 };
