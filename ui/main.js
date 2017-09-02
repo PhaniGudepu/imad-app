@@ -1,6 +1,4 @@
 console.log('Loaded!');
-var get=document.getElementById('main-text');
-get.innerHTML="hi alll";
 var img = document.getElementById('madi');
 var margin = 0;
 function moveRight(){
