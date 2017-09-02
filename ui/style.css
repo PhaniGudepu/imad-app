@@ -18,7 +18,7 @@
 .container{
                max-width: 800px;
                margin: 0 auto;
-               color: gray;
+               background-color: gray;
                font-family: sans-serif;
                margin-top: 60px;
                padding-left: 20px;
