@@ -29,7 +29,7 @@ var articles={
         </p>
         `
 },
-'geththree':{
+'getthree':{
      title:'articleThree',
     heading:'Article-three',
     date:'sept 1 2017',
