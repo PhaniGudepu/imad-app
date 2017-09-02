@@ -24,6 +24,7 @@ body {
                color: gray;
                font-family: sans-serif;
                max-width: 80px;
+               padding-top:30px;
                padding-left: 30px;
                padding-right: 30px;
            }
