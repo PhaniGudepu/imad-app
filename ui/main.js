@@ -2,10 +2,10 @@ console.log('Loaded!');
 var get=document.getElementById('main-text');
 get.innerHTML="hi alll";
 var img = document.getElementById('madi');
-var marginLeft = 0;
+var margin = 0;
 function moveRight(){
-    marginLeft = marginLeft + 10;
-     img.style.marginLeft=marginLeft+'px';
+    margin = margin + 10;
+     img.style.marginLeft=margin+'px';
 }
 img.onclick = function(){
     var interval = setInterval(moveRight, 100);
