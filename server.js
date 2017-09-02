@@ -18,8 +18,8 @@ var articles={
     `
 },
 'gettwo':{
-     title:'articleOne',
-    heading:'Article-One',
+     title:'articleTwo',
+    heading:'Article-Two',
     date:'sept 1 2017',
     content:`
     <p>
