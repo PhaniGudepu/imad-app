@@ -2,6 +2,11 @@ console.log('Loaded!');
 var get=document.getElementById('main-text');
 get.innerHTML="hi alll";
 var img = document.getElementById('madi');
+var marginAdd=0;
+function marginRight(){
+    marginAdd=marginAdd+10;
+    img.style.marginLeft=marginAdd+"px";
+}
 img.onclick = function(){
-    img.style.marginLeft='100px';
+    var move=setIntervel(marginRight, 100);
 };
