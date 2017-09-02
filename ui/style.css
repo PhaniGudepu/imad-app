@@ -1,8 +1,10 @@
 
 .center {
-    text-align: center;
+    text-align: left;
 }
-
+.centerImg{
+     text-align: center;
+}
 .text-big {
     font-size: 300%;
 }
