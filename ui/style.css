@@ -1,7 +1,4 @@
-body {
-    font-family: sans-serif;
-    margin-top: 75px;
-}
+
 
 .center {
     text-align: center;
@@ -20,11 +17,9 @@ body {
 }
 
 .container{
+               font-family: sans-serif;
                margin: 0 auto;
                color: gray;
                font-family: sans-serif;
                max-width: 80px;
-               padding-top: 60px;
-               padding-left: 30px;
-               padding-right: 30px;
            }
