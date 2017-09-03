@@ -12,6 +12,6 @@ request.onreadyStateChange = function(){
       }
   }
 };
-request.open("GET", 'http://glrphani.imad.hasura-app.io/');
+request.open("GET", 'http://glrphani.imad.hasura-app.io/counter');
 request.send(null);
 };
