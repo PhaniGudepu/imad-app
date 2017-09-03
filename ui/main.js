@@ -1,5 +1,5 @@
 var button = document.getElementById("butt");
-button.onclick = function(){
+button.onclick = function() {
 //making the request
 var request = new XMLHttpRequest();
 // capturing the requst
@@ -12,6 +12,6 @@ request.onreadyStateChange = function(){
       }
   }
 };
-request.open("GET", 'glrphani.imad.hasura-app.io/counter');
+request.open("GET", 'http://glrphani.imad.hasura-app.io/');
 request.send(null);
 };
