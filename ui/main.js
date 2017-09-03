@@ -13,4 +13,7 @@ button.onclick = function() {
      }
       
   };
+  //making the request
+  request.open("GET", 'http://glrphani.imad.hasura-app.io/counter');
+  request.send(null);
 };
