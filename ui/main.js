@@ -1,4 +1,5 @@
 var button = document.getElementById("butt");
+button.onclick = function(){
 //making the request
 var request = new XMLHttpRequest();
 // capturing the requst
@@ -11,3 +12,4 @@ request.onreadyStateChange = function(){
       }
   }
 }; 
+};
