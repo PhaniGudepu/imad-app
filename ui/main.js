@@ -1,6 +1,7 @@
 var button = document.getElementById("butt");
 button.onclick = function() {
-//making the request
+    
+      //making the request
 var request = new XMLHttpRequest();
 // capturing the requst
 request.onreadyStateChange = function(){
@@ -14,4 +15,5 @@ request.onreadyStateChange = function(){
 };
 request.open("GET", 'http://glrphani.imad.hasura-app.io/counter');
 request.send(null);
+      
 };
