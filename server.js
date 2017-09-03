@@ -110,7 +110,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 var names = [];
-app.get('/ui/sunmit/:name', function (req, res) {
+app.get('/sunmit/:name', function (req, res) {
     var name = req.params.name;
     names.push(name);
       res.send(JSON.Stringify(names));
